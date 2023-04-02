@@ -1,0 +1,30 @@
+body{
+    color: white;
+    font-weight: 800;
+    margin:0;
+}
+
+.bgVideo{
+    // 배경화면에 맞추기
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height:100vh;
+    object-fit: cover;
+}
+
+main{
+   /////////////////화면 정 가운데 맞추기
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ////////////////////////////////////
+    // background-color: rgb(56, 11, 238);
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+
+}
+
